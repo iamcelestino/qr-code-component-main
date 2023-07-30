@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --bodyBackGround: hsl(212, 45%, 89%);
+    --wrapperBackground: hsl(0, 0%, 100%);
+    --headlineColor: hsl(218, 44%, 22%);
+    --paragraphColor: hsl(220, 15%, 55%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bodyBackGround);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+main {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#wrapper {
+    max-width: 350px;
+    background-color: var(--wrapperBackground);
+    padding: 1rem;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.description {
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+h2 {
+    color:  var(--headlineColor);
+}
+
+p{
+    padding: 1rem;
+    color: var(--paragraphColor);
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
